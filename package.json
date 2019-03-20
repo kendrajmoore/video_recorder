@@ -50,5 +50,7 @@
     "load-grunt-tasks": "3.4.0",
     "grunt-contrib-watch": "1.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "recordrtc-nodejs": "^1.0.6"
+  }
 }
