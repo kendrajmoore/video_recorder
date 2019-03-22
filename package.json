@@ -51,6 +51,7 @@
     "grunt-contrib-watch": "1.1.0"
   },
   "dependencies": {
+    "dotenv": "^7.0.0",
     "recordrtc-nodejs": "^1.0.6"
   }
 }

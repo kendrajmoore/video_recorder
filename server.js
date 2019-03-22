@@ -6,6 +6,8 @@ var server = require('http'),
     path = require('path'),
     fs = require('fs');
 
+const dotenv = require("dotenv").config();
+
 function serverHandler(request, response) {
     var uri = url.parse(request.url).pathname,
         filename = path.join(process.cwd(), uri);
