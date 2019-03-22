@@ -8,6 +8,9 @@ var server = require('http'),
 
 var port = 9001;
 
+
+const dotenv = require("dotenv").config();
+
 function serverHandler(request, response) {
     var uri = url.parse(request.url).pathname,
         filename = path.join(process.cwd(), uri);
